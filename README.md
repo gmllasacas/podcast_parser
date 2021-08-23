@@ -10,16 +10,27 @@ Laravel 8.x application that parses and store the data from a podcast RSS feed g
 
 # Installation
 
-Clone the repository with the following command:
+To run on local, clone the repository with the following command:
 
 ```bash
 git clone https://github.com/gmllasacas/podcast_parser.git
 ```
 
-The dependencies are managed by composer, execute the command:
+The dependencies are managed by composer, after the clone execute the command on the application folder:
 
 ```bash
 composer update
+```
+
+It was developed on a MySQL 5.7.x database with charset utf8mb4 and collation utf8mb4_unicode_ci, after the creation of this database change the config file .env at the root of the application
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=database_name
+DB_USERNAME=database_user
+DB_PASSWORD=database_passwaord
 ```
 
 # Usage
