@@ -1,7 +1,7 @@
 
 # About
 
-This a laravel application that parses and store the data from a podcast RSS feed URL using the command line.
+Laravel 8.x application that parses and store the data from a podcast RSS feed given the URL using the command line, details of the process:
 
 - Validate the URL
 - Validate the XML
