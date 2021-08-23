@@ -120,8 +120,8 @@ class ParserController extends Controller
 
 						return [
 							'status' => '200',
-							//'message' => 'Podcast with '.count($data['episode']).' episode(s) saved, ID: '.$podcast->id,
-							'message' => 'Parsed correctly',
+							'message' => 'Podcast with '.count($data['episode']).' episode(s) saved [ID:'.$podcast->id.']',
+							//'message' => 'Parsed correctly',
 						];
 					}
 				}else{
